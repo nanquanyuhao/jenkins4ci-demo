@@ -8,6 +8,7 @@
 ## tomcat容器安装步骤
 - 在项目子目录tomcat/scripts下，通过如下命令完成执行脚本赋权
 ```
+cd tomcat/scripts
 chmod +x create_tomcat_admin_user
 chmod +x run
 ```
