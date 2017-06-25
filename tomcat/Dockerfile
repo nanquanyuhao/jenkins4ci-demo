@@ -1,4 +1,4 @@
-FROM       nanquanyuhao/jre1.7:demo
+FROM       nanquanyuhao/jdk1.7:demo
 MAINTAINER nanquanyuhao <nanquanyuhao@foxmail.com>
 
 ENV TOMCAT_MAJOR_VERSION 7
@@ -17,7 +17,7 @@ RUN tar zxf apache-tomcat-*.tar.gz && \
 
 ADD scripts /scripts
 RUN chmod +x /scripts/create_tomcat_admin_user &&  \
-	chmod +x run
+	chmod +x /scripts/run
 
 EXPOSE 8080 8443
 
