@@ -6,12 +6,6 @@
 - 宿主机已经存在镜像nanquanyuhao/jre1.7:demo
 
 ## tomcat容器安装步骤
-- 在项目子目录tomcat/scripts下，通过如下命令完成执行脚本赋权
-```
-cd tomcat/scripts
-chmod +x create_tomcat_admin_user
-chmod +x run
-```
 - 在项目子目录tomcat下，通过如下命令完成tomcat7容器镜像安装
 ```
 cd tomcat
