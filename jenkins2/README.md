@@ -14,13 +14,13 @@
 - 方式一.镜像下载
 	- 通过如下命令从DockerHub直接获取镜像
 	```
-	docker pull nanquanyuhao/jenkins:v2
+	docker pull nanquanyuhao/jenkins2:v2
 	```
 - 方式二.Dockerfile安装
 	- 在项目子目录jenkins下，通过如下命令完成Jenkins容器镜像安装
 	```
-	cd jenkins
-	docker build -t nanquanyuhao/jenkins:v2 .
+	cd jenkins2
+	docker build -t nanquanyuhao/jenkins2:v2 .
 	```
 ### Jenkins容器启动步骤
 - 给启动脚本赋予执行权限
