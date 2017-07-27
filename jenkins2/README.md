@@ -36,4 +36,4 @@ chmod +x jenkins_startup.sh
 ## 添加Maven自定义配置文件
 - 此配置文件定制了Maven私服及DockerHub的个人账户
 - 将settings.xml文件拷贝至启动后容器的个人目录下
-- Jenkins启动后，配置Maven的个人配置文件为拷贝后文件的绝对路经即可
+- Jenkins启动后，配置Maven的个人配置文件为拷贝后文件的绝对路径即可
