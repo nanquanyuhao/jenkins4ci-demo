@@ -152,15 +152,6 @@ e, since these pairings are
       <username>muser</username>
       <password>muser</password>
     </server>
-
-  <server>
-    <id>docker-hub</id>
-    <username>nanquanyuhao</username>
-    <password>jxfa0786431</password>
-    <configuration>
-      <email>nanquanyuhao@foxmail.com</email>
-    </configuration>
-  </server>
   </servers>
 
   <!-- mirrors
