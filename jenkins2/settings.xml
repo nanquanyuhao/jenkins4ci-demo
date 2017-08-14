@@ -152,6 +152,7 @@ e, since these pairings are
       <username>muser</username>
       <password>muser</password>
     </server>
+
   </servers>
 
   <!-- mirrors
@@ -190,7 +191,7 @@ rror. IDs are used
       <id>repo-unicom</id>
       <mirrorOf>*</mirrorOf> 
       <name>外网镜像处理</name>
-      <url>http://119.167.165.34:8081/repository/repo_group_seal/</url>
+      <url>http://27.221.114.11:8081/repository/repo_group_seal/</url>
     </mirror>
   </mirrors>
 
