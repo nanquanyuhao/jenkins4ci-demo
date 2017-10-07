@@ -1,8 +1,8 @@
-FROM jenkins:2.60.2
+FROM jenkins:2.60.3
 MAINTAINER nanquanyuhao <nanquanyuhao@foxmail.com>
 
 ENV TIME_ZONE Asia/Shanghai
-ENV DOCKER_COMPOSE_VERSION 1.15.0
+ENV DOCKER_COMPOSE_VERSION 1.16.1
 
 USER root
 RUN echo "${TIME_ZONE}" > /etc/timezone \ 
@@ -15,10 +15,10 @@ RUN apt-get update \
       && apt-get install -y gnupg2 \
       && apt-get install -y software-properties-common \
       && apt-get install -y sudo
-RUN curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add - \
+RUN curl -fsSL https://download.docker.com/linux/$(. /etc/os-release; echo "$ID")/gpg | apt-key add - \
       && apt-key fingerprint 0EBFCD88 \
       && add-apt-repository \
-      "deb [arch=amd64] https://download.docker.com/linux/debian \
+      "deb [arch=amd64] https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") \
       $(lsb_release -cs) stable"
 
 RUN apt-get update \

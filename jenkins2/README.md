@@ -1,4 +1,4 @@
-# Docker化Jenkins 第二版（基于jenkins:2.60.2）
+# Docker化Jenkins 第二版（基于jenkins:2.60.3）
 
 ## 应用说明
 - 参考《Using Docker》jenkins:1.609.3示例升级
@@ -14,13 +14,13 @@
 - 方式一.镜像下载
 	- 通过如下命令从DockerHub直接获取镜像
 	```
-	docker pull nanquanyuhao/jenkins2:2.60.2
+	docker pull nanquanyuhao/jenkins2:2.60.3
 	```
 - 方式二.Dockerfile安装
 	- 在项目子目录jenkins下，通过如下命令完成Jenkins容器镜像安装
 	```
 	cd jenkins2
-	docker build -t nanquanyuhao/jenkins2:2.60.2 .
+	docker build -t nanquanyuhao/jenkins2:2.60.3 .
 	```
 ### Jenkins容器启动步骤
 - 给启动脚本赋予执行权限
