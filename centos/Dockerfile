@@ -1,5 +1,5 @@
 FROM       centos:centos7.1.1503
-MAINTAINER liyh <liyh1928@chinaunicom.cn>
+MAINTAINER nanquanyuhao <nanquanyuhao@foxmail.com>
 
 ENV TZ "Asia/Shanghai"
 ENV TERM xterm

@@ -1,5 +1,5 @@
 FROM jenkins:1.609.3
-MAINTAINER liyh <liyh1928@chinaunicom.cn>
+MAINTAINER nanquanyuhao <nanquanyuhao@foxmail.com>
 
 ENV DOCKER_COMPOSE_VERSION 1.14.0
 

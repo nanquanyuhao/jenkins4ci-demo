@@ -1,5 +1,5 @@
 FROM       nanquanyuhao/tomcat7:demo
-MAINTAINER liyh <liyh1928@chinaunicom.cn>
+MAINTAINER nanquanyuhao <nanquanyuhao@foxmail.com>
 
 ADD init /init
 RUN chmod +x /init
